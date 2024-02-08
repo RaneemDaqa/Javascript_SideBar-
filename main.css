@@ -1,0 +1,39 @@
+
+.showSideBar{
+    display: flex;
+    justify-content:center ;
+    align-content: center;
+    padding: 10px;
+}
+
+#overlay {
+    display: none;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(225, 225, 225, 0.5);
+    z-index: 1;
+}
+
+.SideBar {
+    display: flex;
+    flex-direction: column;
+    position: fixed; 
+    left: 0;
+    top: 0;
+    z-index: 2; 
+    padding:10px;
+    background-color:#fff;
+
+}
+
+.closeSideBar {
+display: none;
+}
+
+button{
+    padding:10px;
+
+}
